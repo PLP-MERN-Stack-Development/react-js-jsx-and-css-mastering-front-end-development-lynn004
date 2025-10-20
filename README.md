@@ -1,16 +1,56 @@
-# React + Vite
+# React + Tailwind Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application built with JSX and Tailwind CSS that demonstrates component architecture, state management, hooks usage, API integration, and dark/light theme toggling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## React Compiler
+- **Task Manager**
+  - Add new tasks
+  - Mark tasks as completed
+  - Delete tasks
+  - Filter tasks (All, Active, Completed)
+  - Tasks persist using localStorage
+- **API Integration**
+  - Fetches data from a public API (JSONPlaceholder)
+  - Displays posts in a responsive grid
+  - Includes loading and error handling
+- **Theme Switcher**
+  - Light/Dark mode toggle
+  - Persistent theme using localStorage
+- **Reusable Components**
+  - Button, Card, Navbar, Footer
+- Fully responsive design for mobile, tablet, and desktop
+- Smooth hover animations and transitions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Tailwind CSS
+- Vite.js (build tool)
+- React Router
+- LocalStorage (for task persistence)
+- Fetch API (for API integration)
+- JavaScript (ES6+)
+- HTML5 & CSS3
+
+---
+
+## 🚀 Installation & Setup
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-lynn004.git
+2. Navigate to the project folder
+cd react-js-jsx-and-css-mastering-front-end-development-lynn004
+3. Install dependencies
+npm install
+4. Start the development server
+npm run dev
+'''bash
+5.Open your browser and visit:
+http://localhost:5173
